@@ -6,12 +6,12 @@ let package = Package(
     products: [
         .library(
             name: "SwiftUIAsyncButton",
-            targets: ["swiftui-async-button"]
+            targets: ["SwiftUIAsyncButton"]
         ),
     ],
     targets: [
         .target(
-            name: "swiftui-async-button",
+            name: "SwiftUIAsyncButton",
             dependencies: []
         ),
     ]
